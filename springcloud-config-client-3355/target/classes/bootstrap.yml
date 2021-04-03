@@ -1,0 +1,8 @@
+# 系统级别配置
+spring:
+  cloud:
+    config:
+      name: config-client # 不需要后缀
+      uri: http://localhost:3344
+      profile: dev
+      label: master
